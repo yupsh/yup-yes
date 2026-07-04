@@ -1,19 +1,9 @@
-# yup-yes
+[![actions](https://github.com/yupsh/yup-yes/actions/workflows/actions.yml/badge.svg)](https://github.com/yupsh/yup-yes/actions/workflows/actions.yml)
+[![ci](https://github.com/yupsh/yup-yes/actions/workflows/ci.yml/badge.svg)](https://github.com/yupsh/yup-yes/actions/workflows/ci.yml)
+[![dockerfiles](https://github.com/yupsh/yup-yes/actions/workflows/dockerfiles.yml/badge.svg)](https://github.com/yupsh/yup-yes/actions/workflows/dockerfiles.yml)
+[![docs](https://github.com/yupsh/yup-yes/actions/workflows/docs.yml/badge.svg)](https://github.com/yupsh/yup-yes/actions/workflows/docs.yml)
+[![go](https://github.com/yupsh/yup-yes/actions/workflows/go.yml/badge.svg)](https://github.com/yupsh/yup-yes/actions/workflows/go.yml)
+[![release](https://github.com/yupsh/yup-yes/actions/workflows/release.yml/badge.svg)](https://github.com/yupsh/yup-yes/actions/workflows/release.yml)
+[![shell](https://github.com/yupsh/yup-yes/actions/workflows/shell.yml/badge.svg)](https://github.com/yupsh/yup-yes/actions/workflows/shell.yml)
 
-```
-NAME:
-   yes - output a string repeatedly until killed
-
-USAGE:
-   yes [OPTIONS] [STRING]...
-
-   repeatedly output a line with all specified STRING(s), or 'y'.
-
-VERSION:
-   dev
-
-GLOBAL OPTIONS:
-   --count int, -n int  output COUNT lines instead of repeating forever (default: 0)
-   --help, -h           show help
-   --version            print version information and exit
-```
+[docs](https://yupsh.github.io/docs.repl/)
