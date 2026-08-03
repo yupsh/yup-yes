@@ -45,6 +45,8 @@ func flags() []urf.Flag {
 			Name:    flagCount,
 			Aliases: []string{"n"},
 			Usage:   "output COUNT lines instead of repeating forever",
+			Value:   0,
+			Sources: urf.EnvVars("YUP_YES_COUNT"),
 		},
 	}
 }
